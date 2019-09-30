@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    margin-top: 3em;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(45,45,45,1);
+    color: white;
+}
+
+header>img {
+    height: auto;
+    max-width: 250px;
+    /*margin-left: 16.66%;*/
+}
+
+header>div {
+    margin-left: 1em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 66.66%;
+    margin-top: 3em;
+}
+
+main>section {
+    width: 90%;
+}
+
+@media (max-width: 1680px){
+    main {
+        width: 90%;
+    }
+
+    main>section {
+        width: 90%
+    }
+}
+
+@media (max-width: 960px){
+    main {
+        width: 100%;
+    }
+
+    main>section {
+        width: 96%
+    }
+}
+
+.trailer {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    max-width: 66.66%;
+    height: auto;
+}
+
+.about-the-game {
+    
+}
+
+.about-the-game>div {
+    padding: 0 2em 0 2em;
+    font-size: 1.5em;
+}
+
+main>hr {
+    background-color: rgba(45,45,45,.3);
+    color:rgba(45,45,45,.3);
+    height: 1px;
+    width: 50%;
+    border-style: none;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section>h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #07965a;
+}
+
+.game-feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.game-feature {
+    width: 25%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    /*background-color: rgba(7, 150, 90, 0.3);*/
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(45,45,45,1);
+    margin-bottom: 2em;
+    font-size: 1.3em;
+    
+}
+.game-feature>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #07965a;
+    text-align: center;
+    height: 2.5em;
+    font-size: 1.45em;
+}
+
+.game-feature>hr {
+    width: 33%
+}
+
+
+
+/***
+Footer
+***/
+
+footer {
+    width: 100%;
+    display: flex; 
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    background-color: rgba(45,45,45,1);
+    color: white;
+}
+
+footer>div {
+    margin-bottom: .5em;
+}
+
+footer>div:last-child {
+    margin-bottom: 1em;
+}
